@@ -1,0 +1,18 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+.main {
+  height: 1500px;
+};
+
+.nav {
+  width: 100%;
+  position: fixed;
+}
+
+@include burger;
